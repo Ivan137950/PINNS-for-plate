@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Training checkpoints and logs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+runs/
+wandb/
+*.log
+
+# Generated experiment outputs
+parametric_solution_large.gif
+plate_fem_nonlinear_solution.csv
+fem_comparison.csv
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.pdb
+
+# Local editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
